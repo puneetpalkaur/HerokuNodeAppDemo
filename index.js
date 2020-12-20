@@ -8,4 +8,3 @@ http.createServer((request, response)=>{
     response.status(200).send('Bonjour World!');
 }).listen(process.env.PORT);
 
-git add . && git commit -m "First Commit"
